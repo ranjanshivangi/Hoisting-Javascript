@@ -1,0 +1,9 @@
+Hoisting in JavaScript is a behavior in which a function or a variable can be used before declaration. 
+
+Variable Hoisting -
+In terms of variables and constants, keyword var is hoisted and let and const does not allow hoisting.
+Also, when the variable is used inside the function, the variable is hoisted only to the top of the function.
+
+Function Hoisting - 
+A function can be called before declaring it.
+However, when a function is used as an expression, an error occurs because only declarations are hoisted.
